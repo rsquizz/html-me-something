@@ -5,3 +5,18 @@ At all costs, avoid adding HTML elements in order to achieve a specific visual e
 Use document-level and inline styles sparingly, and only when absolutely necessary.
 
 In order to see any visible change, make sure to link the stylesheet to your main document. */
+
+.vert {
+height: 400px;
+width: 300px;
+}
+
+img {
+height: 450px;
+width: 800px;
+}
+
+video {
+height: 500 px;
+width: 400px;
+}
