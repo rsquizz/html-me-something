@@ -6,6 +6,25 @@ Use document-level and inline styles sparingly, and only when absolutely necessa
 
 In order to see any visible change, make sure to link the stylesheet to your main document. */
 
+body{
+background-color: #6bde59;
+}
+
+h2 {
+font-family: "Trebuchet MS", sans-serif;
+}
+
+h3 {
+font-family: "Calibri", sans-serif;
+font-size: 1.25em;
+text-align: center;
+}
+
+figcaption {
+font-family: "Verdana", sans-serif;
+text-align: center;
+}
+
 .vert {
 height: 400px;
 width: 300px;
@@ -14,9 +33,23 @@ width: 300px;
 img {
 height: 450px;
 width: 800px;
+margin: auto;
+border: 1px solid black;
+padding: 5px;
+display: block;
+width: 50%;
 }
 
 video {
 height: 500 px;
 width: 400px;
+display: block;
+margin: auto;
+width: 50%;
+}
+
+a {
+text-decoration: none;
+font-family: "Calibri", sans-serif;
+color: black;
 }
