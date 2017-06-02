@@ -7,18 +7,26 @@ Use document-level and inline styles sparingly, and only when absolutely necessa
 
 In order to see any visible change, make sure to link the stylesheet to your main document. */
 
+body{
+margin: 0;
+}
+
 header{
 text-align: center;
 }
 
-h2 {
+h1 {
 font-family: "Trebuchet MS", sans-serif;
-padding: 0;
+padding: 10px 0;
 margin: 0;
+margin-bottom: 10px;
+font-weight: normal;
+background-color: #262880;
+color: white;
 }
 
 figcaption {
-font-family: "Verdana", sans-serif;
+font-family: "Trebuchet MS", sans-serif;
 text-align: center;
 }
 
@@ -33,18 +41,6 @@ float: left;
 display: table;
 }
 
-.vert{
-width: 100%;
-}
-
-.rowone{
-width: 100%;
-}
-
-.rowtwo{
-width: 100%;
-}
-
 img {
 width: 100%;
 margin: auto;
@@ -57,10 +53,12 @@ margin-left: 50px;
 }
 
 footer {
-  font-family: "Calibri", sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
   width: 100%;
   text-align: center;
   clear: both;
+  color: grey;
+  font-size: 70%;
   }
   
 #tailuge {
