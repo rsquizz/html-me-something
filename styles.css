@@ -3,21 +3,18 @@ Use at least one of each of the following types of selectors: element, class, id
 Don't break these rules:
 At all costs, avoid adding HTML elements in order to achieve a specific visual effect.
 Use document-level and inline styles sparingly, and only when absolutely necessary.
+"Use the float or table command to create the tiled layout"
 
 In order to see any visible change, make sure to link the stylesheet to your main document. */
 
-body{
-background-color: #6bde59;
+header{
+text-align: center;
 }
 
 h2 {
 font-family: "Trebuchet MS", sans-serif;
-}
-
-h3 {
-font-family: "Calibri", sans-serif;
-font-size: 1.25em;
-text-align: center;
+padding: 0;
+margin: 0;
 }
 
 figcaption {
@@ -25,31 +22,56 @@ font-family: "Verdana", sans-serif;
 text-align: center;
 }
 
-.vert {
-height: 400px;
-width: 300px;
+figure {
+margin-right: 5px;
+width: 28%;
+padding: 0;
+font-size: 1em;
+text-align: center;
+position: relative;
+float: left;
+display: table;
+}
+
+.vert{
+width: 100%;
+}
+
+.rowone{
+width: 100%;
+}
+
+.rowtwo{
+width: 100%;
 }
 
 img {
-height: 450px;
-width: 800px;
+width: 100%;
 margin: auto;
-border: 1px solid black;
 padding: 5px;
-display: block;
-width: 50%;
 }
 
-video {
-height: 500 px;
-width: 400px;
-display: block;
-margin: auto;
-width: 50%;
+video{
+width: 80%;
+margin-left: 50px;
 }
 
-a {
-text-decoration: none;
-font-family: "Calibri", sans-serif;
-color: black;
+footer {
+  font-family: "Calibri", sans-serif;
+  width: 100%;
+  text-align: center;
+  clear: both;
+  }
+  
+#tailuge {
+width: 31.6%;
+}
+
+#wuyishan {
+width: 28%;
+}
+
+#bengmealea{
+width: 28.5%;
+margin-left: 70px;
 }
